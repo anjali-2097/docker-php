@@ -1,0 +1,8 @@
+version: '4.15'
+services:
+  php-demo:
+    build: .
+    volumes: 
+      - .:/var/www/html/
+    ports:
+      - 9000:80
